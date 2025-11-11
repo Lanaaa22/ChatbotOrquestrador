@@ -1,0 +1,63 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - Olá
+    - Oi,tudo bem?
+    - Tudo bem?
+    - Oi, tudo certo?
+    - Oi
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - Prezado
+    - Tudo bem?
+    - Tudo bom?
+    - Como vai?
+    - Tudo certo?
+    - Prazer
+
+- intent: despedida
+  examples: |
+    - Tchau
+    - Até mais
+    - Adeus
+    - Atenciosamente
+    - Cordialmente
+    - Respeitosamente 
+    - Tenha um bom dia
+
+- intent: solicitar_relatorio
+  examples: |
+    - Gere um relatório dessa radiografia
+    - Quero um laudo preliminar
+    - Crie um relatório para esse exame
+    - Faça um relatório da imagem
+    - Preciso de um laudo
+    - Pode gerar o relatório?
+    - Quero análise dessa radiografia
+    - Crie um relatório dessa radiografia
+
+- intent: classificar_achados
+  examples: |
+    - Identifique achados patológicos
+    - Quero localizar achados
+    - Encontre achados patológicos nessa imagem
+    - Classifique os achados
+    - Analise a imagem e marque achados
+    - Localize possíveis patologias
+    - Identifique anomalias
+    - Verifique achados na imagem
+
+- intent: agradecimento
+  examples: |
+    - Obrigada
+    - Obrigado
+    - Desde já agradeço.
+    - Obg
+    - Valeu
+    - Muito obrigada pela ajuda
+    - Muito obrigado pela ajuda
+
+

@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+- story: solicitacao
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: solicitar_relatorio
+  - action: utter_solicitar_relatorio
+  - intent: classificar_achados
+  - action: utter_classificar_achados
+  - intent: despedida
+  - action: utter_despedida
+
