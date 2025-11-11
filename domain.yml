@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - agradecimento
+
+responses:
+  utter_saudacao:
+  - text: "Olá, prezado. Como posso ajudá-lo?"
+
+  utter_despedida:
+  - text: "Atenciosamente, estou à disposição."
+
+  utter_solicitar_relatorio:
+  - text: "Claro. Irei encaminhar a sua solicitação para o Módulo de Geração de Relatórios Automáticos a partir de Radiografias."
+
+  utter_classificar_achados:
+  - text: "Claro. Irei encaminhar a sua solicitação para o Módulo de Classificação e Localização de Achados Patológicos."
+
+  utter_agradecimento:
+  - text: "De nada. Fico feliz em ajudar."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
